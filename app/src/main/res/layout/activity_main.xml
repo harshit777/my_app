@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:weightSum="1"
+    android:id="@+id/myLinearLayout"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your name:"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:id="@+id/user_name"
+            android:textColor="@android:color/white"
+            android:textSize="24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your partner's name"
+            android:textColor="@android:color/white"
+            android:textSize="24dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:id="@+id/user_name2"
+            android:textSize="24dp"
+            android:textCursorDrawable="@null"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/click_btn"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:text="Calculate"/>
+        <TextView
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_height="wrap_content"
+            android:id="@+id/response"
+            android:textSize="24dp" />
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:id="@+id/response2"
+        android:layout_marginTop="130dp"
+        android:paddingLeft="25dp"
+        android:text="Powered by Harshit Gupta ®"
+
+        android:textSize="24dp" />
+
+</LinearLayout>
+
